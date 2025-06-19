@@ -29,7 +29,13 @@ public class loops {
 
 
         // Problem 3
-        
+        // find factorial of given number
+        int total =1;
+        for(int i=a;i>=1;i--){
+            total *= i; 
+        }
+        System.out.println("Total is:"+total);
+
 
 
 
